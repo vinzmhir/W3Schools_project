@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/appSubBg"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <!-- Here use can include the image for parent menu. -->
+        <ImageView
+            android:id="@+id/ic_txt_item"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/lblListItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dip"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/ic_txt_item"
+            android:textColor="#000000"
+            android:paddingLeft="15dp" />
+
+        <!-- This is the place that act image with +/- ,text act as image. -->
+        <ImageView
+            android:id="@+id/arrow_sub"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="3dp" />
+    </RelativeLayout>
+
+
+
+
+</LinearLayout> 

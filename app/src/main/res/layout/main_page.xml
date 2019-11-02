@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/colorBackground">
+                <!-- HTML -->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#F6F4F6"
+                    android:id="@+id/htmlPage">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/html"
+                        android:textStyle="bold"
+                        android:textColor="@color/mainPageText"
+                        android:textSize="60sp"
+                        android:layout_marginTop="29dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/htmlText" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/the_language_for_building_web_pages"
+                        android:textStyle="normal"
+                        android:textColor="@color/mainPageText"
+                        android:textSize="24sp"
+                        android:layout_below="@+id/htmlText"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:gravity="center"
+                        android:id="@+id/htmlText1" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/htmlText1"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:paddingBottom="25dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:id="@+id/htmlButtons">
+
+                        <Button
+                            android:id="@+id/button_lear_html"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/learn_html"
+                            android:textColor="@color/white" />
+
+                        <Button
+                            android:id="@+id/button_refer_html"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/button_lear_html"
+                            android:text="@string/html_reference"
+                            android:textColor="@color/white"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <!-- CSS -->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/htmlPage"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/cssPage">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/css"
+                        android:textStyle="bold"
+                        android:textColor="@color/mainPageText"
+                        android:textSize="60sp"
+                        android:layout_marginTop="29dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/cssText" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/the_language_for_styling_web_pages"
+                        android:textStyle="normal"
+                        android:textColor="@color/mainPageText"
+                        android:textSize="24sp"
+                        android:layout_below="@+id/cssText"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:id="@+id/cssText1" />
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_below="@+id/cssText1"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/cssButtons"
+                        android:paddingBottom="25dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp">
+
+                        <Button
+                            android:id="@+id/button_lear_css"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/learn_css"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/white" />
+                        <Button
+                            android:id="@+id/button_refer_css"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/css_reference"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/white"
+                            android:layout_below="@id/button_lear_css"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <!-- JAVASCRIPT -->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cssPage"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#F6F4F6"
+                    android:id="@+id/jsPage">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/javascipt"
+                        android:textStyle="bold"
+                        android:textColor="@color/mainPageText"
+                        android:textSize="60sp"
+                        android:layout_marginTop="29dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/jsText" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/the_language_for_programming_web_pages"
+                        android:textStyle="normal"
+                        android:textColor="@color/mainPageText"
+                        android:textSize="24sp"
+                        android:layout_below="@+id/jsText"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:id="@+id/jsText1" />
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/jsText1"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="20dp"
+                        android:id="@+id/jsButtons">
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/learn_javascript"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/jsButton1"
+                            android:textColor="@color/white"/>
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/javascript_reference"
+                            android:layout_below="@+id/jsButton1"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/white"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <!-- SQL -->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/jsPage"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/sqlPage">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sql"
+                        android:textStyle="bold"
+                        android:textColor="@color/mainPageText"
+                        android:textSize="60sp"
+                        android:layout_marginTop="29dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/sqlText" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/a_language_for_accessing_databases"
+                        android:textStyle="normal"
+                        android:textColor="@color/mainPageText"
+                        android:textSize="24sp"
+                        android:layout_below="@+id/sqlText"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:id="@+id/sqlText1" />
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/sqlText1"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="20dp"
+                        android:id="@+id/sqlButtons">
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/learn_sql"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/sqlButton1"
+                            android:textColor="@color/white"/>
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sql_reference"
+                            android:layout_below="@+id/sqlButton1"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/white"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <!-- Programming languages layout -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/sqlPage"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/programming_lang"
+                    android:orientation="vertical"
+                    android:background="@color/mainPageText">
+                    <!-- Python -->
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#F6F4F6"
+                        android:id="@+id/pyPage">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/python"
+                            android:textStyle="bold"
+                            android:textColor="@color/mainPageText"
+                            android:textSize="60sp"
+                            android:layout_marginTop="29dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/pyText" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/a_programming_language"
+                            android:textStyle="normal"
+                            android:textColor="@color/mainPageText"
+                            android:textSize="24sp"
+                            android:layout_below="@+id/pyText"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:textAlignment="center"
+                            android:gravity="center"
+                            android:id="@+id/pyText1" />
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/pyText1"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:paddingBottom="20dp"
+                            android:id="@+id/pyButtons">
+
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/learn_python"
+                                android:layout_centerHorizontal="true"
+                                android:id="@+id/pyButton"
+                                android:textColor="@color/white"/>
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <!-- PHP -->
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#F6F4F6"
+                        android:id="@+id/phpPage">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/php"
+                            android:textStyle="bold"
+                            android:textColor="@color/mainPageText"
+                            android:textSize="60sp"
+                            android:layout_marginTop="29dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/phpText" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/a_web_server_programming_language"
+                            android:textStyle="normal"
+                            android:textColor="@color/mainPageText"
+                            android:textSize="24sp"
+                            android:layout_below="@+id/phpText"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:textAlignment="center"
+                            android:gravity="center"
+                            android:id="@+id/phpText1" />
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/phpText1"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:paddingBottom="20dp"
+                            android:id="@+id/phpButtons">
+
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/learn_php"
+                                android:layout_centerHorizontal="true"
+                                android:id="@+id/phpButton"
+                                android:textColor="@color/white"/>
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <!-- JQuery -->
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#F6F4F6"
+                        android:id="@+id/jqPage">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/jquery"
+                            android:textStyle="bold"
+                            android:textColor="@color/mainPageText"
+                            android:textSize="60sp"
+                            android:layout_marginTop="29dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/jqText" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/a_javascript_library_for_developing_web_pages"
+                            android:textStyle="normal"
+                            android:textColor="@color/mainPageText"
+                            android:textSize="24sp"
+                            android:layout_below="@+id/jqText"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:textAlignment="center"
+                            android:gravity="center"
+                            android:id="@+id/jqText1" />
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/jqText1"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:paddingBottom="20dp"
+                            android:id="@+id/jqButtons">
+
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/learn_jquery"
+                                android:layout_centerHorizontal="true"
+                                android:id="@+id/jqButton"
+                                android:textColor="@color/white"/>
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <!-- Java -->
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#F6F4F6"
+                        android:id="@+id/javaPage">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/java"
+                            android:textStyle="bold"
+                            android:textColor="@color/mainPageText"
+                            android:textSize="60sp"
+                            android:layout_marginTop="29dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/javaText" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/a_programming_language"
+                            android:textStyle="normal"
+                            android:textColor="@color/mainPageText"
+                            android:textSize="24sp"
+                            android:layout_below="@+id/javaText"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:textAlignment="center"
+                            android:gravity="center"
+                            android:id="@+id/javaText1" />
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/javaText1"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:paddingBottom="20dp"
+                            android:id="@+id/javaButtons">
+
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/learn_java"
+                                android:layout_centerHorizontal="true"
+                                android:id="@+id/javaButton"
+                                android:textColor="@color/white"/>
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <!-- W3.CSS -->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/programming_lang"
+                    android:id="@+id/wcPage">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/w3_css"
+                        android:textStyle="bold"
+                        android:textColor="@color/mainPageText"
+                        android:textSize="60sp"
+                        android:layout_marginTop="29dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/wcText" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/a_modern_css_framework_for_faster_and_better_resposive_web_pages"
+                        android:textStyle="normal"
+                        android:textColor="@color/mainPageText"
+                        android:textSize="24sp"
+                        android:layout_below="@+id/wcText"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:id="@+id/wcText1" />
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/wcText1"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="20dp"
+                        android:id="@+id/wcButtons">
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/learn_w3_css"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/wcButton"
+                            android:textColor="@color/white"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <!-- Bootstrap -->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/wcPage"
+                    android:id="@+id/bsPage">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bootstrap"
+                        android:textStyle="bold"
+                        android:textColor="@color/mainPageText"
+                        android:textSize="57sp"
+                        android:layout_marginTop="29dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/bsText" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/a_css_framework_for_designing_better_web_pages"
+                        android:textStyle="normal"
+                        android:textColor="@color/mainPageText"
+                        android:textSize="24sp"
+                        android:layout_below="@+id/bsText"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:id="@+id/bsText1" />
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/bsText1"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="20dp"
+                        android:id="@+id/bsButtons">
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/learn_bootstrap_3"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/bsButton1"
+                            android:textColor="@color/white"/>
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/learn_bootstrap_4"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/bsButton2"
+                            android:layout_below="@+id/bsButton1"
+                            android:textColor="@color/white"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <!-- How to section -->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_below="@id/bsPage"
+                    android:id="@+id/howToPage">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/how_to_section"
+                        android:textStyle="bold"
+                        android:textColor="@color/mainPageText"
+                        android:textSize="40sp"
+                        android:layout_marginTop="29dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/howToText" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/code_snippets_for_html_css_and_javascript"
+                        android:textStyle="normal"
+                        android:textColor="@color/mainPageText"
+                        android:textSize="24sp"
+                        android:layout_below="@+id/howToText"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:id="@+id/howToText1" />
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/howToText1"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:paddingBottom="20dp"
+                        android:id="@+id/howToButtons">
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/learn_how_to"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/howToButton"
+                            android:textColor="@color/white"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>

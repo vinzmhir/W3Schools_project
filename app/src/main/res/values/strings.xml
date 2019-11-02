@@ -1,0 +1,213 @@
+<resources>
+    <string name="app_name">W3Schools</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="the_world_s_largest_developer_site">THE WORLD\'S LARGEST DEVELOPER SITE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="splash_title">Offline Version</string>
+    <string name="AppTitle">W3Schools</string>
+    <string name="the_language_for_programming_web_pages">The language for programming web pages</string>
+    <string name="javascipt">JavaScipt</string>
+    <string name="the_language_for_styling_web_pages">The language for styling web pages</string>
+    <string name="css">CSS</string>
+    <string name="the_language_for_building_web_pages">The language for building web pages</string>
+    <string name="html">HTML</string>
+    <string name="sql">SQL</string>
+    <string name="a_language_for_accessing_databases">A language for accessing databases</string>
+    <string name="learn_sql">Learn Sql</string>
+    <string name="sql_reference">Sql REFERENCE</string>
+    <string name="learn_javascript">Learn Javascript</string>
+    <string name="javascript_reference">Javascript REFERENCE</string>
+    <string name="css_reference">CSS REFERENCE</string>
+    <string name="learn_css">Learn CSS</string>
+    <string name="html_reference">HTML REFERENCE</string>
+    <string name="learn_html">Learn HTML</string>
+    <string name="python">Python</string>
+    <string name="a_programming_language">A programming language</string>
+    <string name="learn_python">Learn Python</string>
+    <string name="php">PHP</string>
+    <string name="a_web_server_programming_language">A web server programming language</string>
+    <string name="learn_php">Learn Php</string>
+    <string name="jquery">JQuery</string>
+    <string name="a_javascript_library_for_developing_web_pages">A JavaScript library for developing web pages</string>
+    <string name="learn_jquery">Learn JQuery</string>
+    <string name="java">Java</string>
+    <string name="learn_java">Learn Java</string>
+    <string name="w3_css">W3.CSS</string>
+    <string name="a_modern_css_framework_for_faster_and_better_resposive_web_pages">A modern CSS framework for faster and better resposive web pages</string>
+    <string name="learn_w3_css">Learn W3.CSS</string>
+    <string name="bootstrap">Bootstrap</string>
+    <string name="a_css_framework_for_designing_better_web_pages">A CSS framework for designing better web pages</string>
+    <string name="learn_bootstrap_3">Learn Bootstrap 3</string>
+    <string name="learn_bootstrap_4">Learn Bootstrap 4</string>
+    <string name="how_to_section">How To Section</string>
+    <string name="code_snippets_for_html_css_and_javascript">Code snippets for HTML, CSS and JavaScript</string>
+    <string name="learn_how_to">Learn How To</string>
+    <string name="start">Start</string>
+    <string name="ic_minus">-</string>
+    <string name="ic_plus">+</string>
+    <string name="facebook">Facebook</string>
+    <string name="email_us">Email Us</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="twitter">Twitter</string>
+    <string name="communicate">Communicate</string>
+
+    <string-array name="listGroup">
+        <item>TUTORIALS</item>
+        <item>REFERENCES</item>
+        <item>OTHERS</item>
+    </string-array>
+
+    <string-array name="tutorialsSubParent">
+        <item>HTML and CSS</item>
+        <item>JavaScript</item>
+        <item>Programming</item>
+        <item>Server Side</item>
+        <item>Web Building</item>
+        <item>XML Tutorials</item>
+    </string-array>
+
+    <string-array name="htmlAndCss">
+        <item>Learn HTML</item>
+        <item>Learn CSS</item>
+        <item>Learn Bootstrap</item>
+        <item>Learn W3.CSS</item>
+        <item>Learn Colors</item>
+        <item>Learn Icons</item>
+        <item>Learn Graphics</item>
+        <item>Learn SVG</item>
+        <item>Learn Canvas</item>
+        <item>Learn How to</item>
+        <item>Learn Sass</item>
+    </string-array>
+
+    <string-array name="JavaScript">
+        <item>Learn JavaScript</item>
+        <item>Learn JQuery</item>
+        <item>Learn React</item>
+        <item>Learn AngularJS</item>
+        <item>Learn JSON</item>
+        <item>Learn AJAX</item>
+        <item>Learn W3.JS</item>
+    </string-array>
+
+    <string-array name="Programming">
+        <item>Learn Python</item>
+        <item>Learn Java</item>
+        <item>Learn C++</item>
+    </string-array>
+
+    <string-array name="ServerSide">
+        <item>Learn SQL</item>
+        <item>Learn PHP</item>
+        <item>Learn ASP</item>
+        <item>Learn Node.js</item>
+        <item>Learn Raspberry Pi</item>
+    </string-array>
+
+    <string-array name="WebBuilding">
+        <item>Web Templates</item>
+        <item>Web Statistics</item>
+        <item>Web Development</item>
+    </string-array>
+
+    <string-array name="XmlTutorials">
+        <item>Learn XML</item>
+        <item>Learn XML AJAX</item>
+        <item>Learn XML DOM</item>
+        <item>Learn XML DTD</item>
+        <item>Learn XML Schema</item>
+        <item>Learn XSLT</item>
+        <item>Learn XPath</item>
+        <item>Learn XQuery</item>
+    </string-array>
+
+    <string-array name="referencesSubParent">
+        <item>HTML</item>
+        <item>CSS</item>
+        <item>JavaScript</item>
+        <item>Programming</item>
+        <item>Server Side</item>
+        <item>XML</item>
+        <item>Character Sets</item>
+    </string-array>
+
+    <string-array name="refHtml">
+        <item>HTML Tag Reference</item>
+        <item>HTML Event Reference</item>
+        <item>HTML Color Reference</item>
+        <item>HTML Attribute Reference</item>
+        <item>HTML Canvas Reference</item>
+        <item>HTML SVG Reference</item>
+        <item>Google Maps Reference</item>
+    </string-array>
+
+    <string-array name="refCSS">
+        <item>CSS Reference</item>
+        <item>Browser Support</item>
+        <item>CSS Selector Reference</item>
+        <item>Bootstrap 3 Reference</item>
+        <item>Bootstrap 4 Reference</item>
+        <item>W3.CSS Reference</item>
+        <item>Icon Reference</item>
+        <item>Sass Reference</item>
+    </string-array>
+
+    <string-array name="refJavaScript">
+        <item>JavaScript Reference</item>
+        <item>HTML DOM Reference</item>
+        <item>JQuery Reference</item>
+        <item>AngularJS Reference</item>
+        <item>W3.JS Reference</item>
+    </string-array>
+
+    <string-array name="refProgramming">
+        <item>Python Reference</item>
+        <item>Java Reference</item>
+    </string-array>
+
+    <string-array name="refServerSide">
+        <item>SQL Reference</item>
+        <item>PHP Reference</item>
+        <item>ASP Reference</item>
+    </string-array>
+
+    <string-array name="refXML">
+        <item>XML DOM Reference</item>
+        <item>XML Http Reference</item>
+        <item>XSLT Reference</item>
+        <item>XML Schema Reference</item>
+    </string-array>
+
+    <string-array name="refCharSet">
+        <item>HTML Character Sets</item>
+        <item>HTML ASCII</item>
+        <item>HTML ANSI</item>
+        <item>HTML Windows-1252</item>
+        <item>HTML ISO-8859-1</item>
+        <item>HTML Symbols</item>
+        <item>HTML UTF-8</item>
+    </string-array>
+
+    <string-array name="othersSubParent">
+        <item>Feedback</item>
+        <item>Support</item>
+    </string-array>
+
+    <string-array name="feedback">
+        <item>Comment</item>
+        <item>Rate Us</item>
+    </string-array>
+
+    <string-array name="support">
+        <item>Donate</item>
+    </string-array>
+
+    <string name="title_activity_home">home</string>
+</resources>

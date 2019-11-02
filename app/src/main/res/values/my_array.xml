@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <array name="icon">
+        <item>R.drawable.ic_book</item>
+        <item>R.drawable.ic_study</item>
+    </array>
+</resources>
